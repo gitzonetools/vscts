@@ -12,7 +12,7 @@ vsctsCli.standardTask().then((arvArg) => {
 vsctsCli.addCommand('init').then((argvArg) => {
   plugins.smartfile.fs.ensureDir(paths.dotVscodeDir)
   // copy file
-  plugins.smartfile.fs.copySync(plugins.path.join(paths.assetDir, 'lainch.json'), paths.launchJson)
+  plugins.smartfile.fs.copySync(plugins.path.join(paths.assetDir, 'launch.json'), paths.launchJson)
 })
 
 vsctsCli.startParse()
