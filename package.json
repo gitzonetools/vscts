@@ -9,6 +9,9 @@
   "scripts": {
     "test": "(npmts)"
   },
+  "bin": {
+    "vscts": "dist/cli.js"
+  },
   "devDependencies": {
     "tapbundle": "^1.0.13"
   },
