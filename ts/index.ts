@@ -1,3 +1,7 @@
 import * as plugins from './vscts.plugins'
 
-export let standardExport = 'Hi there! :) This is a exported string'
+import { vsctsCli } from './vscts.cli'
+
+export {
+  vsctsCli
+}

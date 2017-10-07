@@ -1,1 +1,2 @@
-export declare let standardExport: string;
+import { vsctsCli } from './vscts.cli';
+export { vsctsCli };
