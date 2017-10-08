@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "beautylog": "^6.1.10",
+    "projectinfo": "^3.0.4",
     "smartcli": "^2.0.7",
     "smartdelay": "^1.0.3",
     "smartfile": "^4.2.26",

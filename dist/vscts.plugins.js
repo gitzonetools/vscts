@@ -5,6 +5,8 @@ const beautylog = require("beautylog");
 exports.beautylog = beautylog;
 const path = require("path");
 exports.path = path;
+const projectinfo = require("projectinfo");
+exports.projectinfo = projectinfo;
 const smartcli = require("smartcli");
 exports.smartcli = smartcli;
 const smartfile = require("smartfile");
@@ -20,4 +22,4 @@ process.env.TS_NODE_COMPILER_OPTIONS = `
 }
 `;
 require('ts-node/register');
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidnNjdHMucGx1Z2lucy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL3RzL3ZzY3RzLnBsdWdpbnMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSwwQkFBdUI7QUFFdkIsdUNBQXNDO0FBa0JwQyw4QkFBUztBQWpCWCw2QkFBNEI7QUFrQjFCLG9CQUFJO0FBakJOLHFDQUFvQztBQWtCbEMsNEJBQVE7QUFqQlYsdUNBQXNDO0FBbUJwQyw4QkFBUztBQWxCWCx5Q0FBd0M7QUFpQnRDLGdDQUFVO0FBZlosT0FBTyxDQUFDLEdBQUcsQ0FBQyx3QkFBd0IsR0FBRzs7Ozs7OztDQU90QyxDQUFBO0FBRUQsT0FBTyxDQUFDLGtCQUFrQixDQUFDLENBQUEifQ==
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidnNjdHMucGx1Z2lucy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uL3RzL3ZzY3RzLnBsdWdpbnMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQSwwQkFBdUI7QUFFdkIsdUNBQXNDO0FBbUJwQyw4QkFBUztBQWxCWCw2QkFBNEI7QUFtQjFCLG9CQUFJO0FBbEJOLDJDQUEwQztBQW1CeEMsa0NBQVc7QUFsQmIscUNBQW9DO0FBbUJsQyw0QkFBUTtBQWxCVix1Q0FBc0M7QUFvQnBDLDhCQUFTO0FBbkJYLHlDQUF3QztBQWtCdEMsZ0NBQVU7QUFoQlosT0FBTyxDQUFDLEdBQUcsQ0FBQyx3QkFBd0IsR0FBRzs7Ozs7OztDQU90QyxDQUFBO0FBRUQsT0FBTyxDQUFDLGtCQUFrQixDQUFDLENBQUEifQ==
